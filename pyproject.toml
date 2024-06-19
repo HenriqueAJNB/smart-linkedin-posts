@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "smart-linkedin-posts"
+version = "0.1.0"
+description = ""
+authors = ["Henrique Branco <henrique.ajnbranco@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.1.8"
+langchain = "^0.2.5"
+langchain-community = "^0.2.5"
+faiss-cpu = "^1.8.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
